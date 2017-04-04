@@ -5,5 +5,4 @@ element.addEventListener("submit", function(event) {
     por eso ya no es necesaria la función*/
   // validateForm()
   funciona();
-
 });

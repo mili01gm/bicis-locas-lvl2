@@ -9,6 +9,7 @@ var rightEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 var mayus = /^[A-Z]{1}/
 var span = document.getElementsByTagName('span')
 
+//para el evento "submit"
 function funciona(){
   for(var i=0; i<span.length; i++){
     if(span[i].innerHTML != ""){
@@ -17,6 +18,7 @@ function funciona(){
   }
 }
 
+//Eventos onblur en cada input
 window.addEventListener('load',function(){
     //Para modificar la primera letra a mayuscula
   function validando(elem){
